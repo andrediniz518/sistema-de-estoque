@@ -1,94 +1,52 @@
-# Sistema de Estoque – FASE 1 (CRUD Básico)
+# 📦 Sistema de Estoque
 
-##  Descrição
-Este projeto é um **sistema de estoque básico** desenvolvido em **Python** com integração ao **MySQL**.  
-O objetivo da **FASE 1** é implementar o **CRUD completo** (Create, Read, Update, Delete) de produtos, utilizando apenas o **terminal** como interface.
-
----
-
-##  Funcionalidades
-- Inserir produto → cadastrar nome, quantidade e preço.  
-- Listar produtos → visualizar todos os produtos cadastrados.  
-- Atualizar produto → alterar quantidade ou preço de um produto pelo ID.  
-- Deletar produto → remover produto pelo ID.  
-- Menu interativo no terminal → opções numeradas para navegar entre as funcionalidades.
+## 📌 Descrição
+Este repositório contém a evolução de um **sistema de estoque** desenvolvido em **Python** com integração ao **MySQL**.  
+O objetivo é mostrar a progressão do projeto em diferentes fases, desde um CRUD básico até funcionalidades mais avançadas com relatórios, filtros e interface aprimorada.
 
 ---
-
-##  Estrutura do projeto
 
 ```text
+## 🗂️  Estrutura do repositório
 sistema-de-estoque/
-│── conexao.py        # Conexão com o banco de dados
-│── estoque.py        # Funções CRUD
-│── main.py           # Menu principal da aplicação
-```
-
-## Banco de Dados
-
-Crie o banco de dados executando o seguinte script no MySQL:
-
-```sql
-CREATE DATABASE estoque;
-
-USE estoque;
-
-CREATE TABLE produtos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100),
-    quantidade INT,
-    preco DECIMAL(10,2)
-);
+│── fase-1/   # CRUD básico (inserir, listar, atualizar, deletar)
+│── fase-2/   # Versão intermediária (cadastro avançado, relatórios, filtros, movimentações)
 ```
 
 ---
 
-## Configuração
+## 🚀 Fases do projeto
 
-Instale a biblioteca necessária:
+### 🔹 [FASE 1 – CRUD Básico](./fase-1/README.md)
+- Inserir produto (nome, quantidade, preço).  
+- Listar produtos cadastrados.  
+- Atualizar produto pelo ID.  
+- Deletar produto pelo ID.  
+- Menu simples no terminal.  
 
-```bash
-pip install mysql-connector-python
-```
-
-Depois, configure o arquivo `conexao.py` com suas credenciais:
-
-```python
-import mysql.connector
-
-def conectar():
-    return mysql.connector.connect(
-        host="localhost",
-        user="seu_usuario",
-        password="sua_senha",
-        database="estoque"
-    )
-```
+### 🔹 [FASE 2 – Intermediário](./fase-2/README.md)
+- Cadastro avançado (fornecedor, data de lançamento, categoria, SKU).  
+- Relatórios de estoque (estoque baixo, produtos por fornecedor, lançamentos recentes).  
+- Filtros e busca por nome, categoria ou fornecedor.  
+- Movimentação de entradas e saídas (compras e vendas).  
+- Interface terminal melhorada (cores e tabelas).  
 
 ---
 
-## Como Executar
+## 🎯 Objetivo
+O projeto demonstra como um sistema simples pode evoluir gradualmente para atender necessidades mais complexas de gestão de estoque.  
+Cada fase é independente e possui seu próprio **README.md** explicando as funcionalidades implementadas.
 
-No terminal, execute:
+---
 
-```bash
-python main.py
-```
+## 📌 Tecnologias utilizadas
+- **Python**  
+- **MySQL**  
+- Bibliotecas auxiliares (nas fases posteriores):  
+  - `colorama` → para mensagens coloridas no terminal.  
+  - `tabulate` → para exibição de tabelas formatadas.  
 
-#  Demonstração
+---
 
-##  Inserir Produto
-<img width="281" height="190" alt="estoque-1" src="https://github.com/user-attachments/assets/d102f4a1-555a-4739-9524-172277ce7300" />
-
-##  Listar Produtos
-<img width="403" height="307" alt="estoque-2" src="https://github.com/user-attachments/assets/e5f07871-89ab-4fa7-93bb-74fe83fd2269" />
-
-##  Atualizar Produto
-<img width="301" height="189" alt="estoque-3" src="https://github.com/user-attachments/assets/0f421f02-e4ad-491a-ba5b-b71e0a151604" />
-
-##  Deletar Produto
-<img width="266" height="156" alt="estoque-4" src="https://github.com/user-attachments/assets/eaaa917c-a8cd-4762-bde5-35529a2fdd30" />
-
-## Autor
-
-Desenvolvido por **André Diniz**.
+## 📈 Próximos passos
+- Fase 3 (avançado): interface gráfica, relatórios exportáveis (PDF/Excel), alertas automáticos e dashboard visual.
