@@ -4,7 +4,7 @@
 Este projeto é um **sistema de estoque básico** desenvolvido em **Python** com integração ao **MySQL**.  
 O objetivo da **FASE 1** é implementar o **CRUD completo** (Create, Read, Update, Delete) de produtos, utilizando apenas o **terminal** como interface.
 
----
+--- 
 
 ##  Funcionalidades
 - Inserir produto → cadastrar nome, quantidade e preço.  
