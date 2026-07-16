@@ -85,3 +85,7 @@ python main.py
 
 ##  Atualizar Produto
 <img width="301" height="189" alt="estoque-3" src="https://github.com/user-attachments/assets/0f421f02-e4ad-491a-ba5b-b71e0a151604" />
+
+## Autor
+
+Desenvolvido por **André Diniz**.
