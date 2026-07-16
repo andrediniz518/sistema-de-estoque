@@ -1,4 +1,4 @@
-# Sistema de Estoque – FASE 1 (CRUD Básico)
+# Sistema de Estoque – FASE 1 (CRUD Básico) 
 
 ##  Descrição
 Este projeto é um **sistema de estoque básico** desenvolvido em **Python** com integração ao **MySQL**.  
