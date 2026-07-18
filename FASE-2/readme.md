@@ -52,7 +52,7 @@ Menu principal atualizado com opções para relatórios e movimentação.
 Instale os pacotes necessários:
 
 ```bash
-pip install mysql-connector-python tabulate
+pip install mysql-connector-python tabulate datetime
 ```
 
 ## 📂 Estrutura de arquivos
