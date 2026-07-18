@@ -42,11 +42,8 @@ Implementação de validações:
 
 Menu principal atualizado com opções para relatórios e movimentação.
 
-Uso de `colorama` para cores diferenciadas em cada opção.
-
 ### 6. Interface melhorada
 
-- Cores aplicadas com `colorama`.
 - Tabelas organizadas com `tabulate`.
 - Mensagens de feedback claras (sucesso, erro, alerta).
 
@@ -55,7 +52,7 @@ Uso de `colorama` para cores diferenciadas em cada opção.
 Instale os pacotes necessários:
 
 ```bash
-pip install mysql-connector-python tabulate colorama
+pip install mysql-connector-python tabulate
 ```
 
 ## 📂 Estrutura de arquivos
