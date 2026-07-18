@@ -71,7 +71,7 @@ conexao.py         # Conexão com MySQL
 - Evita dados inválidos no banco.
 - Relatórios claros e organizados.
 - Movimentação de estoque funcional e segura.
-- Interface amigável com cores e tabelas.
+- Interface amigável e com tabelas.
 
 ## 📌 Próximos passos (FASE 3)
 
