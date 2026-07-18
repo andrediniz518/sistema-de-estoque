@@ -10,7 +10,7 @@ O objetivo é mostrar a progressão do projeto em diferentes fases, desde um CRU
 ## 🗂️  Estrutura do repositório
 sistema-de-estoque/
 │── fase-1/   # CRUD básico (inserir, listar, atualizar, deletar)
-│── fase-2/   # Versão intermediária (cadastro avançado, relatórios, filtros, movimentações)
+│── fase-2/   # Versão intermediária (cadastro avançado, relatórios, movimentações)
 ```
 
 ---
@@ -26,8 +26,7 @@ sistema-de-estoque/
 
 ### 🔹 [FASE 2 – Intermediário](./fase-2/README.md)
 - Cadastro avançado (fornecedor, data de lançamento, categoria, SKU).  
-- Relatórios de estoque (estoque baixo, produtos por fornecedor, lançamentos recentes).  
-- Filtros e busca por nome, categoria ou fornecedor.  
+- Relatórios de estoque (estoque baixo, produtos por fornecedor, lançamentos recentes).   
 - Movimentação de entradas e saídas (compras e vendas).  
 - Interface terminal melhorada (cores e tabelas).  
 
@@ -42,8 +41,7 @@ Cada fase é independente e possui seu próprio **README.md** explicando as func
 ## 📌 Tecnologias utilizadas
 - **Python**  
 - **MySQL**  
-- Bibliotecas auxiliares (nas fases posteriores):  
-  - `colorama` → para mensagens coloridas no terminal.  
+- Biblioteca auxiliar (nas fases posteriores):   
   - `tabulate` → para exibição de tabelas formatadas.  
 
 ---
