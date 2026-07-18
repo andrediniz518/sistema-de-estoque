@@ -43,7 +43,7 @@ Cada fase é independente e possui seu próprio **README.md** explicando as func
 - **MySQL**  
 - Biblioteca auxiliar (nas fases posteriores):   
   - `tabulate` → para exibição de tabelas formatadas.  
-
+  - `datime` → para validar datas formatadas.
 ---
 
 ## 📈 Próximos passos
