@@ -73,9 +73,27 @@ conexao.py         # Conexão com MySQL
 - Movimentação de estoque funcional e segura.
 - Interface amigável e com tabelas.
 
+
+# Demonstração
+
+## Novos Campos Relatórios e Movimentação de estoque
+<img width="272" height="156" alt="FASE-2 IMG 1" src="https://github.com/user-attachments/assets/108935ab-24d5-4524-939c-373df68027b5" />
+
+## Relatórios
+<img width="280" height="99" alt="FASE-2 IMG 2" src="https://github.com/user-attachments/assets/2e1bc510-85eb-4d3b-aef9-31c51409b87a" />
+
+## Movimentação de estoque
+<img width="283" height="74" alt="FASE-2 IMG 3" src="https://github.com/user-attachments/assets/b1054b69-03b5-462e-be82-f647bf573ae2" />
+
+
 ## 📌 Próximos passos (FASE 3)
 
 - Login de usuários com permissões (admin, operador).
 - Exportação de relatórios (CSV/Excel).
 - Histórico de movimentações para rastrear entradas e saídas.
 - Interface gráfica ou versão web.
+
+
+# Autor
+
+Desenvolvido por **André Diniz**
