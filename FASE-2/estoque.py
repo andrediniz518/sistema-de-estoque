@@ -1,4 +1,5 @@
 from conexao import conectar
+from tabulate import tabulate
 
 def inserir_produtos(nome, quantidade, preco, 
                     fornecedor, data_lancamento, categoria, sku):
@@ -26,8 +27,16 @@ def listar_produtos():
     """
     cursor.execute(sql)
     produtos = cursor.fetchall()
-    for produto in produtos:
-        print(produto)
+
+    if not produtos:
+        print('Nenhum produto cadastrado!')
+        return 
+    
+    headers = ["ID", "Nome", "Qtd", "Preço",
+    "Fornecedor", "Data", "Categoria", "SKU"]
+
+    print(tabulate(produtos, headers=headers, tablefmt='fancy_grid'))
+
     conn.close()
 
 
