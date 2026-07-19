@@ -5,7 +5,7 @@ def conectar():
     conexao = mysql.connector.connect(
         host = 'localhost', #endereço do servidor
         user = 'root',
-        password = 'capcon166',
-        database = 'estoque'
+        password = 'sua_senha',
+        database = 'seu_database'
     )
     return conexao
