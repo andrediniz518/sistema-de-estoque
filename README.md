@@ -28,7 +28,7 @@ sistema-de-estoque/
 - Cadastro avançado (fornecedor, data de lançamento, categoria, SKU).  
 - Relatórios de estoque (estoque baixo, produtos por fornecedor, lançamentos recentes).   
 - Movimentação de entradas e saídas (compras e vendas).  
-- Interface terminal melhorada (cores e tabelas).  
+- Interface terminal melhorada (tabelas).  
 
 ---
 
