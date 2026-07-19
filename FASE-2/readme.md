@@ -79,6 +79,9 @@ conexao.py         # Conexão com MySQL
 ## Novos Campos Relatórios e Movimentação de estoque
 <img width="272" height="156" alt="FASE-2 IMG 1" src="https://github.com/user-attachments/assets/108935ab-24d5-4524-939c-373df68027b5" />
 
+## Campo listar produtos melhorado com tabelas
+<img width="345" height="562" alt="FASE-2 IMG 4" src="https://github.com/user-attachments/assets/0f7a7fdc-0199-4b58-9b3c-36786160ccf0" />
+
 ## Relatórios
 <img width="280" height="99" alt="FASE-2 IMG 2" src="https://github.com/user-attachments/assets/2e1bc510-85eb-4d3b-aef9-31c51409b87a" />
 
