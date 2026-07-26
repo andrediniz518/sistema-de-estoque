@@ -45,6 +45,3 @@ Cada fase é independente e possui seu próprio **README.md** explicando as func
   - `tabulate` → para exibição de tabelas formatadas.  
   - `datime` → para validar datas formatadas.
 ---
-
-## 📈 Próximos passos
-- Fase 3 (avançado): interface gráfica, relatórios exportáveis (PDF/Excel), alertas automáticos e dashboard visual.
