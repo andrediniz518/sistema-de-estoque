@@ -89,14 +89,6 @@ conexao.py         # Conexão com MySQL
 <img width="283" height="74" alt="FASE-2 IMG 3" src="https://github.com/user-attachments/assets/b1054b69-03b5-462e-be82-f647bf573ae2" />
 
 
-## 📌 Próximos passos (FASE 3)
-
-- Login de usuários com permissões (admin, operador).
-- Exportação de relatórios (CSV/Excel).
-- Histórico de movimentações para rastrear entradas e saídas.
-- Interface gráfica ou versão web.
-
-
 # Autor
 
 Desenvolvido por **André Diniz**
