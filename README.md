@@ -45,3 +45,7 @@ Cada fase é independente e possui seu próprio **README.md** explicando as func
   - `tabulate` → para exibição de tabelas formatadas.  
   - `datime` → para validar datas formatadas.
 ---
+
+## Autor
+
+**André Diniz**
